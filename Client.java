@@ -1,8 +1,9 @@
-import java.io.BufferedWriter;
+
+//import java.io.BufferedWriter;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
+//import java.io.OutputStreamWriter;
+//import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.util.Scanner;
@@ -44,6 +45,7 @@ public class Client {
              * pw.write(num1);
              * pw.write(num2);
              */
+            sc.close();
             socket.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
